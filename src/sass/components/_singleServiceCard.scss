@@ -2,6 +2,9 @@
     width: calc((100% - 100px)/3);
     height: auto;
     @include position;
+    @include sm {
+        width: 100%;
+    }
 
     & .singleServiceCard {
         @include position(flex-start, flex-start, column);
@@ -13,9 +16,6 @@
         cursor: pointer;
         box-shadow: $shadow;
 
-        @include sm {
-            width: 100%;
-        }
 
         & .card-icon {
             font-size: 50px;

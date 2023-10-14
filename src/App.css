@@ -92,6 +92,11 @@ main.app .single-card-container {
   flex-direction: row;
   flex-wrap: no-wrap;
 }
+@media (max-width: 700px) {
+  main.app .single-card-container {
+    width: 100%;
+  }
+}
 main.app .single-card-container .singleServiceCard {
   display: flex;
   align-items: flex-start;
@@ -105,11 +110,6 @@ main.app .single-card-container .singleServiceCard {
   padding: 30px;
   cursor: pointer;
   box-shadow: 0px 3px 10px 6px rgba(0, 0, 0, 0.1);
-}
-@media (max-width: 700px) {
-  main.app .single-card-container .singleServiceCard {
-    width: 100%;
-  }
 }
 main.app .single-card-container .singleServiceCard .card-icon {
   font-size: 50px;

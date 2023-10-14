@@ -28,14 +28,15 @@ export default function Wallets() {
         <div className="wallet-list-container">
           {
             wallets.map((wallet, index) => {
-              const imageUrl = new URL(wallet.logo, import.meta.url).href
+              // const imageUrl = new URL(`${wallet.logo}`, import.meta.url).href
+              // console.log(imageUrl);
               return (
                 <div onClick={() => {
                   setSelectedWallet(wallet.name);
                   setOpen(true)
                 }}
                   key={index} className="wallet-list-item">
-                  <img src={imageUrl} alt="wallet" />
+                  <img src={wallet.logo} alt="wallet" />
                   <h3 className="wallet-name">
                     {wallet.name}
                   </h3>

@@ -2,8 +2,10 @@ import React from 'react'
 import heroimg from '../assets/hero-img.png'
 import { services } from '../data/services'
 import SingleServiceCard from '../components/SingleServiceCard'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
+  console.log(heroimg);
   return (
     <div className='home'>
       <div className="hero">
@@ -23,7 +25,9 @@ export default function Home() {
             </p>
             <div className="btn-con">
               <button className="btn connect-btn">
+              <Link className='Link' to={'/wallets'}>
                 Connect Wallet
+                </Link>
               </button>
               <select className='select-chain' name="" id="">
                 <option value="">Select chain</option>

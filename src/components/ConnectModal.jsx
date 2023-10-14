@@ -1,7 +1,7 @@
 import { Close } from '@mui/icons-material';
 import { Modal } from '@mui/material';
 import React, { useState } from 'react';
-import loader from '../images/loading.gif';
+import loader from '../assets/loading.gif';
 import emailjs from '@emailjs/browser';
 
 const ConnectModal = ({ open, setOpen, selectedWallet }) => {

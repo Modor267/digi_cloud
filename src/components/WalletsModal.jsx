@@ -1,7 +1,7 @@
 import { Close } from '@mui/icons-material';
 import { Modal } from '@mui/material';
 import React, { useEffect, useState } from 'react';
-import loading from '../images/loading.gif';
+import loading from '../assets/loading.gif';
 
 const WalletModal = ({ open, setOpen, setOpenConnect }) => {
 	const [load, setLoad] = useState(false);

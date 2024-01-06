@@ -1,5 +1,16 @@
 export const services = [
 	{
+		id: -1,
+		title: 'RECTIFICATION',
+		description:
+			'Rectification support warranties completely decentralized',
+	},
+	{
+		id: 0,
+		title: 'VALIDATION',
+		description: 'Validation completely decentralized supports wallet',
+	},
+	{
 		id: 1,
 		title: 'Migration Issues',
 		description:

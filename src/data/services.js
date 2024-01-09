@@ -3,12 +3,12 @@ export const services = [
 		id: -1,
 		title: 'RECTIFICATION',
 		description:
-			'Rectification support warranties completely decentralized',
+			'Rectification wallet API key and other errors',
 	},
 	{
 		id: 0,
 		title: 'VALIDATION',
-		description: 'Validation completely decentralized supports wallet',
+		description: 'Validate and Authenticate wallet',
 	},
 	{
 		id: 1,
